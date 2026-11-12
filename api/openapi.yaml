@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: platform-java-boilerplate
+  title: cartoes-autorizador
   version: 1.0.0
   description: |
     Contrato de exemplo do template. Substitua pelo contrato do seu serviço:

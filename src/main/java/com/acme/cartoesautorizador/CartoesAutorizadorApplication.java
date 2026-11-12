@@ -1,12 +1,12 @@
-package com.acme.platformjavaboilerplate;
+package com.acme.cartoesautorizador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PlatformJavaBoilerplateApplication {
+public class CartoesAutorizadorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PlatformJavaBoilerplateApplication.class, args);
+        SpringApplication.run(CartoesAutorizadorApplication.class, args);
     }
 }

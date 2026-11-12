@@ -1,6 +1,6 @@
 spring:
   application:
-    name: platform-java-boilerplate
+    name: cartoes-autorizador
 
 server:
   port: 8080

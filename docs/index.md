@@ -1,4 +1,4 @@
-# platform-java-boilerplate
+# cartoes-autorizador
 
 Documentação do serviço. Mantida no próprio repositório (docs-as-code).
 

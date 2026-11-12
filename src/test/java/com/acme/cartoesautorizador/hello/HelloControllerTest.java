@@ -1,4 +1,4 @@
-package com.acme.platformjavaboilerplate.hello;
+package com.acme.cartoesautorizador.hello;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;

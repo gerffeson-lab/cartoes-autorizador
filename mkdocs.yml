@@ -1,4 +1,4 @@
-site_name: platform-java-boilerplate
+site_name: cartoes-autorizador
 nav:
   - Início: index.md
 plugins:

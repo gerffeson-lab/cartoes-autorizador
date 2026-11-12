@@ -1,4 +1,4 @@
-# platform-java-boilerplate
+# cartoes-autorizador
 
 Walking skeleton do golden path: um serviço Spring Boot mínimo que já nasce com contrato
 OpenAPI, esteira de CI, imagem de container e metadados de catálogo.

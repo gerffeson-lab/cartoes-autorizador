@@ -3,29 +3,29 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: platform-java-boilerplate
+  name: cartoes-autorizador
   description: Walking skeleton do golden path
   annotations:
-    github.com/project-slug: gerffeson-lab/platform-java-boilerplate
+    github.com/project-slug: gerffeson-lab/cartoes-autorizador
     backstage.io/techdocs-ref: dir:.
   tags: [java, spring-boot]
 spec:
   type: service
   lifecycle: experimental
-  owner: group:plataforma
-  system: acme
+  owner: group:pagamentos
+  system: cartoes
   providesApis:
-    - platform-java-boilerplate-api
+    - cartoes-autorizador-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: platform-java-boilerplate-api
-  description: Contrato OpenAPI do platform-java-boilerplate
+  name: cartoes-autorizador-api
+  description: Contrato OpenAPI do cartoes-autorizador
 spec:
   type: openapi
   lifecycle: experimental
-  owner: group:plataforma
-  system: acme
+  owner: group:pagamentos
+  system: cartoes
   definition:
     $text: ./api/openapi.yaml
